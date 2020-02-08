@@ -8,15 +8,51 @@ $prismay-blue: rgb(29, 176, 238);
 
 /* header */
 
-// TODO general check
 // TODO Responsive design
 
 header {
-  background-color: $prismay-blue;
+  background-color: $prismay-blue !important;
+  border: none !important;
+
+  button {
+    border-color: white !important;
+    animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+
+    @keyframes shake {
+      10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+      }
+
+      20%, 80% {
+        transform: translate3d(2px, 0, 0);
+      }
+
+      30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+      }
+
+      40%, 60% {
+        transform: translate3d(4px, 0, 0);
+      }
+    }
+
+    &:hover, &:focus {
+      background-color: darkgray !important;
+    }
+  }
+
   .navbar-right {
     position: relative;
     top: $standard-margin;
   }
+
+  .navbar-collapse {
+    border-color: white !important;
+  }
+
   .btn {
     margin-left: $standard-margin;
     font-weight: 400;
@@ -35,6 +71,7 @@ header {
   letter-spacing: -1px;
   padding-top: 2px;
   font-family: sans-serif;
+
   &:hover {
     color: white;
     text-decoration: none;

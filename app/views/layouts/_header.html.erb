@@ -1,9 +1,23 @@
-<header class="navbar navbar-fixed-top">
+<header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <%= link_to 'prismay', root_path, id: 'header-logo' %>
-    <nav class="nav navbar-nav navbar-right">
-      <button type="button" class="btn btn-light">Crea una cuenta</button>
-      <button type="button" class="btn btn-light">Inicia Sesión</button>
+    <nav>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false">
+          <span class="sr-only">Botón de navegación</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="bs-example-navbar-collapse-1"
+           class="nav navbar-nav navbar-right collapse navbar-collapse">
+        <button type="button" class="btn btn-light">Crea una cuenta</button>
+        <button type="button" class="btn btn-light">Inicia Sesión</button>
+      </div>
     </nav>
   </div>
 </header>
