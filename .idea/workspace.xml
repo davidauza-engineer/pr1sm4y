@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5072551-728a-49fd-a457-967cec3457b9" name="Default Changelist" comment="" />
+    <list default="true" id="c5072551-728a-49fd-a457-967cec3457b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/prismay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prismay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +25,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunManager" selected="Rails.Development: prismay">
     <configuration name="Development: prismay" type="RailsRunConfigurationType" factoryName="Rails">
@@ -131,11 +137,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581133234744</updated>
-      <workItem from="1581133242711" duration="233000" />
+      <workItem from="1581133242711" duration="1552000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" width="997" height="720" key="SettingsEditor" timestamp="1581134064071">
+      <screen x="0" y="0" width="1281" height="720" />
+    </state>
+    <state x="0" y="0" width="997" height="720" key="SettingsEditor/1281.23.1280.777/-1281.23.1281.697/0.0.1281.720@0.0.1281.720" timestamp="1581134064071" />
   </component>
 </project>
