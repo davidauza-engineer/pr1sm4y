@@ -1,0 +1,42 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+/* mixins, variables, etc. */
+$standard-margin: 8px;
+$double-margin: 16px;
+$prismay-blue: rgb(29, 176, 238);
+
+/* header */
+
+// TODO general check
+// TODO Responsive design
+
+header {
+  background-color: $prismay-blue;
+  .navbar-right {
+    position: relative;
+    top: $standard-margin;
+  }
+  .btn {
+    margin-left: $standard-margin;
+    font-weight: 400;
+    color: dimgray;
+    border-radius: 50px;
+    padding-left: $double-margin;
+    padding-right: $double-margin;
+  }
+}
+
+#header-logo {
+  float: left;
+  margin-right: $standard-margin;
+  font-size: 2em;
+  color: white;
+  letter-spacing: -1px;
+  padding-top: 2px;
+  font-family: sans-serif;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}

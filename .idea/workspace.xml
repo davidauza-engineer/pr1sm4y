@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5072551-728a-49fd-a457-967cec3457b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prismay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prismay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/_shim.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
