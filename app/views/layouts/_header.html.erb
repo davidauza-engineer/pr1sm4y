@@ -3,7 +3,7 @@
     <%= link_to 'prismay', root_path, id: 'header-logo' %>
     <nav>
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed"
+        <button type="button" class="navbar-toggle collapsed hamburger"
                 data-toggle="collapse"
                 data-target="#bs-example-navbar-collapse-1"
                 aria-expanded="false">
@@ -14,9 +14,10 @@
         </button>
       </div>
       <div id="bs-example-navbar-collapse-1"
-           class="nav navbar-nav navbar-right collapse navbar-collapse">
+           class="nav navbar-nav navbar-right button-container collapse
+           navbar-collapse d-flex">
+        <button type="button" class="btn btn-light btn-1">Inicia Sesión</button>
         <button type="button" class="btn btn-light">Crea una cuenta</button>
-        <button type="button" class="btn btn-light">Inicia Sesión</button>
       </div>
     </nav>
   </div>
