@@ -14,28 +14,19 @@ header {
 
   .hamburger {
     border-color: white !important;
-    animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    perspective: 1000px;
+    animation: move 1s linear infinite alternate;
+    animation-delay: 4.2s;
 
-    @keyframes shake {
-      10%, 90% {
-        transform: translate3d(-1px, 0, 0);
-      }
+    @keyframes move {
+     0% {
+       transform: translateX(-4px);
+     }
 
-      20%, 80% {
-        transform: translate3d(2px, 0, 0);
-      }
-
-      30%, 50%, 70% {
-        transform: translate3d(-4px, 0, 0);
-      }
-
-      40%, 60% {
-        transform: translate3d(4px, 0, 0);
+      100% {
+        transform: translateX(4px);
       }
     }
+
 
     &:hover, &:focus {
       background-color: darkgray !important;
@@ -109,5 +100,118 @@ header {
   &:hover {
     color: white;
     text-decoration: none;
+  }
+}
+
+/* Home */
+
+.home-container-one {
+  background-image: linear-gradient(to bottom right, magenta, yellow);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.css-typing {
+  display: flex;
+  justify-content: center;
+}
+
+.css-typing p {
+  border-right: 0.15em solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: $standard-margin;
+  margin-top: $standard-margin;
+  color: white;
+}
+
+.home-text-one {
+  width: 6em;
+  opacity: 0;
+  -webkit-animation: type 1.8s steps(20, end);
+  animation: type 1.8s steps(20, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.home-text-two {
+  width: 7.8em;
+  opacity: 0;
+  -webkit-animation: type2 2.4s steps(32, end) 1.8s, blink 0.5s step-end 4.2s infinite alternate;
+  animation: type2 2.4s steps(32, end) 1.8s, blink 0.5s step-end 4.2s infinite alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  padding-bottom: $standard-margin / 2;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid white;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid white;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
   }
 }
